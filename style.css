@@ -1,6 +1,14 @@
-.https {
+.holder ul + p {
+    font-size: 24px;
+  }
+.holder a[href="https://www.youtube.com/"] {
     color:red;
 }
-.lorem {
-    font-size:24px;;
+.holder a[href="https://validator.w3.org/"] {
+    color:red;
+ }
+ /* Або так 
+ .holder a[href^="https"] {
+    color:red;
 }
+ */
